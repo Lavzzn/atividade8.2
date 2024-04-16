@@ -1,0 +1,113 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+ }
+ .menu-nav
+ {
+ height: 83px;
+ background-color: rgb(255, 255, 255);
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-left: 196px;
+}
+.div-menu{
+    display: flex;
+    height: 100%;
+}
+.itens-menu
+{
+    display: flex;
+    list-style: none;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;    
+}
+.logo{
+    font-family: roboto;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.item{
+  text-decoration: none;
+  color: black;
+  font-family: roboto;
+  font-weight: 700;
+}
+.div-nuvem{
+    width: 75px;
+    background-color: #f70058;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 54px;
+}
+.div-clima{
+    height: 100%;
+    width: 160px;
+    background-color: black;
+    color: #FFFFFFB3;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 10px;
+}
+.div-temperatura
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    height: 50%;
+    margin: 0 10px;
+}
+.info-temperatura{
+    color: aliceblue;
+    font-size: 14px;
+}
+.container{
+    padding: 186px 0 0 196px;
+}
+.titulo{
+    font-family: Work sans;
+    font-weight: 900;
+    color: black;
+    font-size: 48px;
+    width: 538px;
+}
+.info{
+    font-family: Work sans;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 615px;
+    text-align: justify;
+    line-height: 30px;
+}
+.buttons{
+    margin-top: 40px;
+}
+.btn{
+    height: 49px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Work sans;
+    font-weight: 700;
+}
+.btn-seasons{
+    background-color: #f70058;
+    color: aliceblue;
+    padding: 15px 27px;
+
+}
+.btn-get{
+color: #f70058;
+
+}
